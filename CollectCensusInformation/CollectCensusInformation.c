@@ -11,6 +11,7 @@
 #include<stdlib.h>
 #include<stdbool.h>
 #include<time.h>
+#include<string.h>
 
 // ------------------------------------
 // Constants
@@ -77,6 +78,7 @@ void main()
 		printf("\n");
 
 	} while (blnUserFinished != 1);
+	
 }
 
 

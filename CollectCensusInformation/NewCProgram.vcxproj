@@ -24,6 +24,7 @@
     <ProjectGuid>{b0ce79b7-e7bc-4fe5-bdf7-770f6e9df66e}</ProjectGuid>
     <RootNamespace>NewCProgram</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CollectCensusInformation</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
