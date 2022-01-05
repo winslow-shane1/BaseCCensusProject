@@ -407,7 +407,7 @@ void StoreEntry(char strInput[])
 {
 	FILE* fp;
 	//Try to open the file for reading (notice you have to double up the backslashes)
-	fp = fopen("C:\\Users\\eseinhart\\Desktop\\ExampleProjects\\BaseCCensusProject\\Destination\\Census.txt", "a");
+	fp = fopen("C:\\Users\\eseinhart\\Desktop\\ExampleProjects\\Github Portfolio\\C\\BaseCCensusProject\\Destination\\Census.txt", "a");
 
 	//Insert String into text file
 	fputs(strInput, fp);
