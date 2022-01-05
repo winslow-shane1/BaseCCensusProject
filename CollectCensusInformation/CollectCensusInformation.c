@@ -30,8 +30,8 @@ void AppendComma(char strDestination[]);
 void StringCopy(char strDestination[], char strSource[]);
 void GetState(int* intUserEntry, int* intStateCheck, char strState[], char strInput[]);
 void GetCounty(int* intUserEntry, int intStateCheck, char strCounty[], char strInput[]);
-void GetKentuckyCounties(int intUserEntry, char strCounty[]);
-void GetOhioCounties(int intUserEntry, char strCounty[]);
+void GetKentuckyCounties(int* intUserEntry, char strCounty[]);
+void GetOhioCounties(int* intUserEntry, char strCounty[]);
 void GetRace(int* intUserEntry, char strRace[], char strInput[]);
 void GetHouseholdNumber(int* intHouseholdNumber, char strHouseholdNumber[], char strInput[]);
 void GetHouseholdYearlyIncome(float* fltYearlyIncome, char strYearlyIncome[], char strInput[]);
@@ -407,7 +407,7 @@ void StoreEntry(char strInput[])
 {
 	FILE* fp;
 	//Try to open the file for reading (notice you have to double up the backslashes)
-	fp = fopen("C:\\Users\\eseinhart\\Desktop\\ExampleProjects\\testC\\Destination\\Census.txt", "a");
+	fp = fopen("C:\\Users\\eseinhart\\Desktop\\ExampleProjects\\BaseCCensusProject\\Destination\\Census.txt", "a");
 
 	//Insert String into text file
 	fputs(strInput, fp);
